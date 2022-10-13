@@ -26,10 +26,10 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            maxSpeed = 12.0f;
+            maxSpeed = 15.0f;
         } else
         {
-            maxSpeed = 8.0f;
+            maxSpeed = 12.0f;
         }
 
         //Create a 'float' that will be equal to the players horizontal input
